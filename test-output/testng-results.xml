@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67915" started-at="2019-11-21T06:51:16Z" finished-at="2019-11-21T06:52:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="67915" started-at="2019-11-21T06:51:16Z" finished-at="2019-11-21T06:52:24Z">
+      <class name="framework.WalletHub.Assignment2WalletHub">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:framework.WalletHub.Assignment2WalletHub@523884b2]" name="getDriver" is-config="true" duration-ms="8012" started-at="2019-11-21T06:51:16Z" finished-at="2019-11-21T06:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="performActionsWH(java.lang.String, java.lang.String)[pri:0, instance:framework.WalletHub.Assignment2WalletHub@523884b2]" name="performActionsWH" duration-ms="59844" started-at="2019-11-21T06:51:24Z" finished-at="2019-11-21T06:52:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[darpan.sathe67@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Central.4010$$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActionsWH -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:framework.WalletHub.Assignment2WalletHub@523884b2]" name="closeDriver" is-config="true" duration-ms="0" started-at="2019-11-21T06:52:24Z" finished-at="2019-11-21T06:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- framework.WalletHub.Assignment2WalletHub -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

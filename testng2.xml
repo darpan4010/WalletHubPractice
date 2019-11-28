@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <parameter name="userName" value="darpan.sathe67@gmail.com"/>
+	<parameter name="passWord" value="Central.4010$$"/>
+    <classes>
+      <class name="framework.WalletHub.Assignment2WalletHub"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
